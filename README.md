@@ -1,6 +1,8 @@
 # Hato
 Hato is programmable notification for [esa.io](https://esa.io) and [Slack](http://slack.com) using [Lambda](https://aws.amazon.com/lambda/) and [API Gateway](https://aws.amazon.com/api-gateway/).
 
+![](https://raw.githubusercontent.com/mzp/hato/master/hato.png)
+
 ## Setup
 ### 1. AWS Setup
 Go to [AWS Console](https://console.aws.amazon.com) and create a new IAM role that has `AWSLambdaBasicExecutionRole`.
