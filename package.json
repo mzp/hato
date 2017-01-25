@@ -1,0 +1,10 @@
+{
+  "name": "hato",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "mzp",
+  "license": "MIT",
+  "dependencies": {
+    "requestretry": "^1.12.0"
+  }
+}
