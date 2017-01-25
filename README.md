@@ -40,7 +40,7 @@ SLACK_WEBHOOK=webhook_url
 ### 3. Write dispatch rule
 Write `rule.js`:
 
-```json
+```js
 smodule.exports = [
   { pattern: 'Users/mzp', channel: '#current_mzp' },
 
