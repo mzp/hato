@@ -47,8 +47,13 @@ function make(payload) {
 exports.handler = function( event, context, callback) {
   var rules = require('./rule');
   var payload = JSON.parse(event.body);
+  var skip = false;
+
   rules.forEach(function(rule) {
+    if (skip) { return }
+
     if (payload.post.name.match(rule.pattern)) {
+      skip = true;
       var message = make(payload);
       if(!message) { return }
       message.channel = rule.channel;
