@@ -1,3 +1,4 @@
 .env
 deploy.env
+rule.js
 node_modules
