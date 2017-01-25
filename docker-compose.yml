@@ -1,0 +1,10 @@
+version: "2"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: "h2o -c /etc/h2o/h2o.conf"
+    volumes:
+      - .:/hato
+      - ~/.aws:/root/.aws
