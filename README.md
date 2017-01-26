@@ -3,6 +3,8 @@ Hato is programmable notification for [esa.io](https://esa.io) and [Slack](http:
 
 ![](https://raw.githubusercontent.com/mzp/hato/master/hato.png)
 
+(illustlated by [いらすとや](http://www.irasutoya.com/2016/11/blog-post_580.html))
+
 ## Setup
 ### 1. AWS Setup
 Go to [AWS Console](https://console.aws.amazon.com) and create a new IAM role that has `AWSLambdaBasicExecutionRole`.
